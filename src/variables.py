@@ -33,3 +33,15 @@ This is Kedar
 """
 
 print(multi_line_string)
+
+a = 10
+b = 20
+print(a + b) #sum
+print(str(a) + str(b)) #concatenation
+
+print("")
+
+a = "10"
+b = "20"
+print(a + b) #concatenation
+print(int(a) + int(b)) #sum
