@@ -3,7 +3,10 @@
 # Creating a class Dog and it's methods
 class Dog():
 
-    def set_name(self, name):
+    # def set_name(self, name):
+    #     self.name = name
+
+    def __init__(self, name): # This is a constructor in Python
         self.name = name
 
     def bark(self):
