@@ -19,3 +19,10 @@ marks.sort()
 for i in range(0, len(marks)):
     print("Marks of Student",i+1, "are",marks[i])
 print("End of the program!!")
+
+'''
+Check if array has unique elements
+Set only maintains unique records/values
+'''
+
+print(len(marks) == len(set(marks)))
